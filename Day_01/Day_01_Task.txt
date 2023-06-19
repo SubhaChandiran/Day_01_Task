@@ -1,9 +1,11 @@
-Difference between HTTP/1.1 and HTTP/2 are:
 
-                HTTP (Hypertext Transfer Protocol) is the foundation of communication on the World Wide Web. 
+        HTTP (Hypertext Transfer Protocol) is the foundation of communication on the World Wide Web. 
 It enables the exchange of information between a web server and a client, typically a web browser. 
 Over the years, HTTP has evolved to enhance performance, security, and efficiency. Two significant versions of the protocol,
 HTTP 1.1 and HTTP 2, have played a pivotal role in shaping the modern web.
+
+
+Difference between HTTP/1.1 and HTTP/2 are:
 
 HTTP/1.1  :
 
