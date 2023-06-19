@@ -1,0 +1,22 @@
+Difference between HTTP/1.1 and HTTP/2 are:
+
+                HTTP (Hypertext Transfer Protocol) is the foundation of communication on the World Wide Web. 
+It enables the exchange of information between a web server and a client, typically a web browser. 
+Over the years, HTTP has evolved to enhance performance, security, and efficiency. Two significant versions of the protocol,
+HTTP 1.1 and HTTP 2, have played a pivotal role in shaping the modern web.
+
+HTTP/1.1  :
+
+* It works on the textual format.	
+* There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.	
+* It uses requests resource Inlining for use getting multiple pages	
+* It compresses data by itself.	
+
+HTTP/2  : 
+
+* It works on the binary protocol.
+* It allows multiplexing so one TCP connection is required for multiple requests.
+*  It uses PUSH frame by server that collects all multiple pages 
+* It uses HPACK for data compression.
+
+
