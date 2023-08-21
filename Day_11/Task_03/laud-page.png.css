@@ -1,0 +1,17 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    display: flex;
+    text-decoration: none;
+}
+
+ul,
+li {
+    text-decoration: none;
+    align-items: end;
+}
