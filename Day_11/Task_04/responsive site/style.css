@@ -1,0 +1,655 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1B1C1D;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.heading1 {
+    color: #fff;
+    background-color: #1B1C1D;
+    text-align: center;
+    padding: 100px;
+    font-weight: bold;
+}
+
+.poet {
+    margin-top: 170px;
+    margin-left: 270px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.img {
+    display: block;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 55%;
+}
+
+.button {
+    text-align: center;
+}
+
+.button1 {
+    background-color: #E0E1E2;
+    color: #787064;
+}
+
+.button2 {
+    background-color: #DB2828;
+    color: white;
+}
+
+.button3 {
+    background-color: #F2711C;
+    color: white;
+}
+
+
+/* Style the buttons with icons and text */
+.button1,
+.button2,
+.button3 {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button1 i,
+.button2 i,
+.button3 i {
+    margin-right: 8px;
+}
+
+.heading2 {
+    color: #fff;
+    background-color: #1B1C1D;
+    text-align: center;
+    padding: 45px;
+    font-weight: bold;
+}
+
+.heading2 {
+    margin-top: 80px;
+}
+
+.Award-icon {
+    margin-left: 50%;
+}
+
+
+.Awards-title {
+    display: flex;
+    justify-content: center;
+}
+
+.Awards1,
+.Awards2,
+.Awards3,
+.Awards4 {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px 10px;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+/* content */
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    width: 45%;
+}
+
+ul {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.column h4 {
+    font-size: 18px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+/* footer */
+.footer {
+    background-color: #1B1C1D;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.column1 {
+    margin-left: 10%;
+    margin-right: 1%;
+    flex: 1;
+    padding: 10px;
+}
+
+.column span {
+    color: #21477E;
+    font-weight: bold;
+}
+
+/* media query max-width: 962px
+@media (max-width: 962px) {
+    .poet {
+        margin-top: 170px;
+        margin-left: 5px;
+        width: 500px;
+        font-size: 18px;
+    }
+
+    img {
+        width: 75%;
+        height: 75%;
+    }
+
+    .img {
+        display: flex;
+        position: absolute;
+        margin-top: 370px;
+        margin-left: 50%;
+    }
+
+    .Awards1,
+    .Awards2,
+    .Awards3,
+    .Awards4 {
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px 10px;
+        width: 250px;
+        height: 150px;
+        justify-content: center;
+        border-radius: 3px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .column {
+        width: 45%;
+    }
+
+    ul {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    ul li {
+        margin-bottom: 5px;
+    }
+
+    .column h4 {
+        font-size: 18px;
+        margin-left: 205px;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        background-color: #1B1C1D;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+
+    .column {
+        margin-left: 5%;
+        margin-right: 1%;
+        flex: 1;
+        padding: 5px;
+    }
+
+    .column span {
+        color: #21477E;
+        font-weight: bold;
+    }
+}
+*/
+
+/* media query max-width: 481px*/
+@media (max-width: 482px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: #1B1C1D;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        max-width: 120px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .nav-links {
+        list-style: none;
+        margin: 0;
+        padding: 0px;
+        display: flex;
+    }
+
+    .nav-links li {
+        margin-right: 1px;
+    }
+
+    .nav-links a {
+        padding: 5px;
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s;
+    }
+
+    .heading1 {
+        color: #fff;
+        background-color: #1B1C1D;
+        text-align: center;
+        padding: 80px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    /* poet */
+    /* poet */
+    .poet {
+        margin-top: 210px;
+        margin-left: 150px;
+        width: 150px;
+        font-size: 11px;
+    }
+
+    img {
+        width: 30%;
+        height: 20%;
+    }
+
+    .img {
+        display: block;
+        position: absolute;
+        margin-top: 85px;
+        margin-left: 10px;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    .button1 {
+        background-color: #E0E1E2;
+        color: #787064;
+    }
+
+    .button2 {
+        background-color: #DB2828;
+        color: white;
+    }
+
+    .button3 {
+        background-color: #F2711C;
+        color: white;
+    }
+
+
+    /* Style the buttons with icons and text */
+    .button1,
+    .button2,
+    .button3 {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 20px;
+        font-size: 8px;
+        border-radius: 4px;
+        border: none;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .button1 i,
+    .button2 i,
+    .button3 i {
+        margin-right: 8px;
+    }
+
+    .heading2 {
+        color: #fff;
+        background-color: #1B1C1D;
+        text-align: center;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .heading2 {
+        margin-top: 80px;
+    }
+
+    .Award-icon {
+        margin-left: 45%;
+    }
+
+    .Awards-title {
+        display: block;
+        margin-left: 200px;
+    }
+
+    .Awards1,
+    .Awards2,
+    .Awards3,
+    .Awards4 {
+        border: 1px solid black;
+        /* padding: 5px;
+        margin: 10px 10px; */
+        width: 81px;
+        height: 160px;
+        /* justify-content: center; */
+        border-radius: 3px;
+        font-size: 13px;
+    }
+
+    .content {
+        display: block;
+        justify-content: space-between;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .column h4 {
+        font-size: 18px;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
+
+    .column {
+        width: 50%;
+    }
+
+    ul {
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    ul li {
+        margin-bottom: 5px;
+    }
+
+
+
+    /* footer */
+    .footer {
+        background-color: #1B1C1D;
+        color: white;
+        display: block;
+        /* justify-content: space-between; */
+        margin: 10px;
+        overflow: inherit;
+    }
+
+    .column1 {
+        /* flex: 1; */
+        padding: 1px;
+        font-size: 10px;
+    }
+
+    .column1 span {
+        color: #21477E;
+        font-weight: bold;
+    }
+}
+
+/* media query  961px*/
+@media (max-width: 962px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: #1B1C1D;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        max-width: 120px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .nav-links {
+        list-style: none;
+        margin: 0;
+        padding: 0px;
+        display: flex;
+    }
+
+    .nav-links li {
+
+        margin-right: 1px;
+    }
+
+    .nav-links a {
+        padding: 5px;
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s;
+    }
+
+    .heading1 {
+        color: #fff;
+        background-color: #1B1C1D;
+        text-align: center;
+        padding: 80px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    /* poet */
+    /* poet */
+    .poet {
+        margin-top: 210px;
+        margin-left: 150px;
+        width: 150px;
+        font-size: 11px;
+    }
+
+    img {
+        width: 30%;
+        height: 20%;
+    }
+
+    .img {
+        display: block;
+        position: absolute;
+        margin-top: 85px;
+        margin-left: 10px;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    .button1 {
+        background-color: #E0E1E2;
+        color: #787064;
+    }
+
+    .button2 {
+        background-color: #DB2828;
+        color: white;
+    }
+
+    .button3 {
+        background-color: #F2711C;
+        color: white;
+    }
+
+
+    /* Style the buttons with icons and text */
+    .button1,
+    .button2,
+    .button3 {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 20px;
+        font-size: 8px;
+        border-radius: 4px;
+        border: none;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .button1 i,
+    .button2 i,
+    .button3 i {
+        margin-right: 8px;
+    }
+
+    .heading2 {
+        color: #fff;
+        background-color: #1B1C1D;
+        text-align: center;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .heading2 {
+        margin-top: 80px;
+    }
+
+    .Award-icon {
+        margin-left: 45%;
+    }
+
+    .Awards-title {
+        display: block;
+        margin-left: 200px;
+    }
+
+    .Awards1,
+    .Awards2,
+    .Awards3,
+    .Awards4 {
+        border: 1px solid black;
+        /* padding: 5px;
+        margin: 10px 10px; */
+        width: 81px;
+        height: 160px;
+        /* justify-content: center; */
+        border-radius: 3px;
+        font-size: 13px;
+    }
+
+    .content {
+        display: block;
+        justify-content: space-between;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .column h4 {
+        font-size: 18px;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
+
+    .column {
+        width: 50%;
+    }
+
+    ul {
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    ul li {
+        margin-bottom: 5px;
+    }
+
+
+
+    /* footer */
+    .footer {
+        background-color: #1B1C1D;
+        color: white;
+        display: block;
+        /* justify-content: space-between; */
+        margin: 10px;
+        overflow: inherit;
+    }
+
+    .column1 {
+        /* flex: 1; */
+        padding: 1px;
+        font-size: 10px;
+    }
+
+    .column1 span {
+        color: #21477E;
+        font-weight: bold;
+    }
+}
