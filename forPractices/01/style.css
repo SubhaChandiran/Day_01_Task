@@ -1,0 +1,21 @@
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  margin-top: 150px;
+  border: 1px solid #dee2e6;
+}
+
+li:hover {
+    background-color: #007BFF;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#content {
+  margin-top: 75px;
+  margin-left: 25px;
+}
