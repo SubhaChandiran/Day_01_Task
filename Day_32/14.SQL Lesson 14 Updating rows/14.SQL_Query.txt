@@ -1,0 +1,7 @@
+Exercise 14 — Tasks
+
+1. UPDATE Movies SET Director = "John Lasseter" where Id = 2;
+
+2. UPDATE Movies SET Year = "1999" WHERE Id = 3;
+
+3. UPDATE Movies SET Title = "Toy Story 3", Director = "Lee Unkrich" where Id = 11;

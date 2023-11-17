@@ -1,0 +1,5 @@
+Exercise 18 — Tasks
+
+1. DROP TABLE Movies;
+
+2. DROP TABLE BoxOffice;

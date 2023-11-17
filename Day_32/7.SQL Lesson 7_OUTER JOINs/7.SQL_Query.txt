@@ -1,0 +1,5 @@
+1.SELECT DISTINCT b,Building_name, e.Building FROM Buildings b JOIN Employees e ON b.Building_name = e.Building;
+
+2.SELECT Building_name, Capacity FROM Buildings;
+
+3.SELECT Distinct Building_name, Role from Buildings left join Employees on Building_name = Building;

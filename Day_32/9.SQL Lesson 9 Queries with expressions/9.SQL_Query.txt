@@ -1,0 +1,5 @@
+1. SELECT Title,(Domestic_sales+International_sales)/1000000 as Total_sales_Millions FROM movies left join Boxoffice on Id=Movie_id;
+
+2. SELECT Title,Rating*10 as percent from Movies left join Boxoffice on Id=Movie_Id;
+
+3. SELECT Title,Year from Movies left join Boxoffice on Id = Movie_Id where Year%2 = 0;

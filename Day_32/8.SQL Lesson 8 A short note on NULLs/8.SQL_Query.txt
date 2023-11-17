@@ -1,0 +1,3 @@
+1. SELECT * FROM employees left join buildings on Building_name=Building where Building is null;
+
+2. SELECT * FROM Buildings left join Employees on Building_name = Building where Building is null;
