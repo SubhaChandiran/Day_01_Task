@@ -1,0 +1,72 @@
+
+EX:
+
+Collection: users
+Fields:
+{
+  "_id": "user_id",
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "enrollment_date": "2022-01-01",
+  "mentor_id": "mentor_id"
+}
+
+Collection: codekata
+Fields:
+
+{
+  "_id": "codekata_id",
+  "user_id": "user_id",
+  "problems_solved": 10,
+  "date": "2022-10-15"
+}
+
+Collection: attendance
+Fields:
+
+{
+  "_id": "attendance_id",
+  "user_id": "user_id",
+  "date": "2022-10-20",
+  "status": "absent"
+}
+
+Collection: topics
+Fields:
+
+{
+  "_id": "topic_id",
+  "name": "MongoDB Basics"
+}
+
+Collection: tasks
+Fields:
+
+{
+  "_id": "task_id",
+  "user_id": "user_id",
+  "topic_id": "topic_id",
+  "date": "2022-10-25",
+  "status": "not submitted"
+}
+
+Collection: company_drives
+Fields:
+
+{
+  "_id": "drive_id",
+  "name": "Tech Company X Placement Drive",
+  "date": "2020-10-20",
+  "participants": ["user_id1", "user_id2"]
+}
+
+Collection: mentors
+Fields:
+
+{
+  "_id": "mentor_id",
+  "name": "Mentor A",
+  "mentee_count": 20
+}
+
+
