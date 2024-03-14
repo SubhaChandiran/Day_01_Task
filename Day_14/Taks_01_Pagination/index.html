@@ -3,64 +3,330 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pagination_01</title>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Pagination</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <!-- <div id="content"></div>
-    <ul id="page-numbers" class="pagination"></ul> -->
+    <main>
+      <section class="header">
+        <div class="item-controller">
+          <h5>Show</h5>
+          <select id="itemperpage">
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="08">08</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+          </select>
+          <h5>Per page</h5>
+        </div>
+        <div class="search"></div>
+        <h5>Search</h5>
+        <input type="text" name="" placeholder="Search" />
+      </section>
+      <section class="field">
+        <table>
+          <thead>
+            <tr>
+              <th><input type="checkbox" name="" /></th>
+              <th>S.N</th>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Username</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>01</td>
+              <td>Tiger Nixon</td>
+              <td>Developer</td>
+              <td>@tiger</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>02</td>
+              <td>Garrett Winters</td>
+              <td>Accountant</td>
+              <td>@gakyo</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>03</td>
+              <td>Ashton Cox</td>
+              <td>Junior Technical Author</td>
+              <td>@Francisco</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>04</td>
+              <td>Cedric Kelly</td>
+              <td>Senior Javascript Developer</td>
+              <td>Edinburgh</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>05</td>
+              <td>Airi Satou</td>
+              <td>Accountant</td>
+              <td>Tokyo</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>06</td>
+              <td>Brielle Williamson</td>
+              <td>Integration Specialist</td>
+              <td>@Williamson</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>07</td>
+              <td>Herrod Chandler</td>
+              <td>sales Assistant</td>
+              <td>San Francisco</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>08</td>
+              <td>Rhon Davidson</td>
+              <td>Integration Specialist</td>
+              <td>Tokyo</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>09</td>
+              <td>Colleen Hurst</td>
+              <td>Javascript Developer</td>
+              <td>San Francisco</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>10</td>
+              <td>Sonya Frost</td>
+              <td>Software Engineer</td>
+              <td>Edinburgh</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>11</td>
+              <td>Jena Gaines</td>
+              <td>Office Manager</td>
+              <td>London</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>12</td>
+              <td>Quinn Flynn</td>
+              <td>Support Lead</td>
+              <td>Edinburgh</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>13</td>
+              <td>Charde Marshall</td>
+              <td>Regional Director</td>
+              <td>San Francisco</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>14</td>
+              <td>Haley Kennedy</td>
+              <td>Senior Marketing Designer</td>
+              <td>London</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>15</td>
+              <td>Tatyana Fitzpatrick</td>
+              <td>Regional Director</td>
+              <td>London</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <!-- copy -->
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>16</td>
+              <td>Tiger Nixon</td>
+              <td>Developer</td>
+              <td>@tiger</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>17</td>
+              <td>Garrett Winters</td>
+              <td>Accountant</td>
+              <td>@gakyo</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>18</td>
+              <td>Ashton Cox</td>
+              <td>Junior Technical Author</td>
+              <td>@Francisco</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>19</td>
+              <td>Cedric Kelly</td>
+              <td>Senior Javascript Developer</td>
+              <td>Edinburgh</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>20</td>
+              <td>Airi Satou</td>
+              <td>Accountant</td>
+              <td>Tokyo</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>21</td>
+              <td>Brielle Williamson</td>
+              <td>Integration Specialist</td>
+              <td>@Williamson</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>22</td>
+              <td>Herrod Chandler</td>
+              <td>sales Assistant</td>
+              <td>San Francisco</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>23</td>
+              <td>Rhon Davidson</td>
+              <td>Integration Specialist</td>
+              <td>Tokyo</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>24</td>
+              <td>Colleen Hurst</td>
+              <td>Javascript Developer</td>
+              <td>San Francisco</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>25</td>
+              <td>Sonya Frost</td>
+              <td>Software Engineer</td>
+              <td>Edinburgh</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>26</td>
+              <td>Jena Gaines</td>
+              <td>Office Manager</td>
+              <td>London</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>27</td>
+              <td>Quinn Flynn</td>
+              <td>Support Lead</td>
+              <td>Edinburgh</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>28</td>
+              <td>Charde Marshall</td>
+              <td>Regional Director</td>
+              <td>San Francisco</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>29</td>
+              <td>Haley Kennedy</td>
+              <td>Senior Marketing Designer</td>
+              <td>London</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" /></td>
+              <td>30</td>
+              <td>Tatyana Fitzpatrick</td>
+              <td>Regional Director</td>
+              <td>London</td>
+              <td><input type="checkbox" name="" /></td>
+              <td><i class="fa fa-edit"></i> | <i class="fa fa-trash"></i></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="bottom-field">
+          <ul class="pagination">
+            <li class="prev"><a href="#" id="prev">&#139;</a></li>
+            <li class="list"><a href="#">01</a></li>
+            <li class="list"><a href="#">02</a></li>
+            <li class="list"><a href="#">03</a></li>
+            <li class="next"><a href="#" id="next">&#155;</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
-    <div class="container">
-      <div class="pagination">
-        <button class="btn1" onclick="backBtn()">
-          <img src="448-arrow.png" alt="arrow" />Prev
-        </button>
-        <ul>
-          <li class="link active" value="1" onclick="activeLink()">1</li>
-          <li class="link" value="1" onclick="activeLink()">2</li>
-          <li class="link" value="1" onclick="activeLink()">3</li>
-          <li class="link" value="1" onclick="activeLink()">4</li>
-          <li class="link" value="1" onclick="activeLink()">5</li>
-          <li class="link" value="1" onclick="activeLink()">6</li>
-        </ul>
-        <button class="btn2" onclick="nextBtn()">
-          Next<img src="448-arrow.png" alt="arrow" />
-        </button>
-      </div>
-    </div>
-
-    <script>
-      let link = document.getElementsByClassName("link");
-      let currentValue = 1;
-      function activeLink() {
-        for (l of link) {
-          l.classList.remove("active");
-        }
-        event.target.classList.add("active");
-        currentValue = event.target.value;
-      }
-
-      function backBtn() {
-        if (currentValue > 1) {
-          for (l of link) {
-            l.classList.remove("active");
-          }
-          currentValue--;
-          link[currentValue - 1].classList.add("active");
-        }
-      }
-
-      function nextBtn() {
-        if (currentValue < 6) {
-          for (l of link) {
-            l.classList.remove("active");
-          }
-          currentValue++;
-          link[currentValue - 1].classList.add("active");
-        }
-      }
-    </script>
-
-    <!-- <script src="./script.js"></script> -->
+    <script type="text/Javascript" src="main1.js"></script>
   </body>
 </html>
